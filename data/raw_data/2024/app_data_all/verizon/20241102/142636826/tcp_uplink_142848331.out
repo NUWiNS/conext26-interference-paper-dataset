@@ -1,0 +1,10 @@
+Start time: 1730582928302
+[2024-11-02T14:29:59.434866-0700] nuttcp-t: v8.1.4: socket
+[2024-11-02T14:29:59.435631-0700] nuttcp-t: buflen=65536, nstream=1, port=5101 tcp -> 54.176.53.206
+[2024-11-02T14:29:59.435678-0700] nuttcp-t: time limit = 120.00 seconds
+[2024-11-02T14:29:59.435710-0700] nuttcp-t: connect to 54.176.53.206 with mss=1376, RTT=112.668 ms af=inet
+[2024-11-02T14:29:59.435739-0700] nuttcp-t: send window size = 1048576, receive window size = 4194304
+[2024-11-02T14:29:59.435771-0700] nuttcp-t: available send window = 786432, available receive window = 3145728
+[2024-11-02T14:29:59.435798-0700] nuttcp-t: initial congestion window = 13 KB (10 packets)
+[2024-11-02T14:29:59.435826-0700] nuttcp-t: v8.1.4: Error: timeout while draining socket send queue
+End time: 1730583049462

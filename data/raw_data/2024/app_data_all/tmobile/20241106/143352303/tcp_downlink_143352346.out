@@ -1,0 +1,5 @@
+Start time: 1730921632320
+[2024-11-06T14:34:00.263336-0500] nuttcp-r: v8.1.4: socket
+[2024-11-06T14:34:00.264781-0500] nuttcp-r: buflen=65536, nstream=1, port=5379 tcp
+[2024-11-06T14:34:00.264928-0500] nuttcp-r: interval reporting every 0.50 seconds
+End time: 1730921753411

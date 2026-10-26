@@ -1,0 +1,51 @@
+Start time: 1730663810262
+[2024-11-03T12:56:51.785247-0700] nuttcp-t: v8.1.4: socket
+[2024-11-03T12:56:51.785797-0700] nuttcp-t: buflen=65536, nstream=1, port=5379 tcp -> 54.176.53.206
+[2024-11-03T12:56:51.785835-0700] nuttcp-t: time limit = 120.00 seconds
+[2024-11-03T12:56:51.785862-0700] nuttcp-t: connect to 54.176.53.206 with mss=1384, RTT=72.598 ms af=inet
+[2024-11-03T12:56:51.785887-0700] nuttcp-t: send window size = 1048576, receive window size = 4194304
+[2024-11-03T12:56:51.785912-0700] nuttcp-t: available send window = 786432, available receive window = 3145728
+[2024-11-03T12:56:51.785937-0700] nuttcp-t: initial congestion window = 13 KB (10 packets)
+[2024-11-03T12:56:51.785962-0700] nuttcp-r: v6.1.2: socket
+[2024-11-03T12:56:51.785986-0700] nuttcp-r: buflen=65536, nstream=1, port=5379 tcp
+[2024-11-03T12:56:51.786010-0700] nuttcp-r: interval reporting every 0.50 seconds
+[2024-11-03T12:56:51.786034-0700] nuttcp-r: accept from 172.59.229.238
+[2024-11-03T12:56:51.786057-0700] nuttcp-r: send window size = 450000000, receive window size = 450000000
+[2024-11-03T12:56:51.786080-0700] nuttcp-r: available send window = 225000000, available receive window = 225000000
+[2024-11-03T12:56:51.786104-0700]     0.0625 MB /   0.50 sec =    1.0485 Mbps     0 retrans    229 KB-cwnd
+[2024-11-03T12:56:51.786144-0700]     0.1250 MB /   0.50 sec =    2.0971 Mbps     0 retrans    229 KB-cwnd
+[2024-11-03T12:56:52.590506-0700]     0.0625 MB /   0.50 sec =    1.0486 Mbps     0 retrans    389 KB-cwnd
+[2024-11-03T12:56:57.846774-0700]     0.1250 MB /   0.50 sec =    2.0971 Mbps   240 retrans    237 KB-cwnd
+[2024-11-03T12:56:57.847200-0700]     0.0625 MB /   0.50 sec =    1.0485 Mbps     0 retrans    237 KB-cwnd
+[2024-11-03T12:56:57.847343-0700]     0.0625 MB /   0.50 sec =    1.0487 Mbps     0 retrans    237 KB-cwnd
+[2024-11-03T12:56:57.847457-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    237 KB-cwnd
+[2024-11-03T12:56:57.847636-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    237 KB-cwnd
+[2024-11-03T12:56:57.847751-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    237 KB-cwnd
+[2024-11-03T12:56:57.847857-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    237 KB-cwnd
+[2024-11-03T12:56:57.847959-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    237 KB-cwnd
+[2024-11-03T12:56:57.848059-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    237 KB-cwnd
+[2024-11-03T12:56:57.848162-0700]     0.1250 MB /   0.50 sec =    2.0972 Mbps     0 retrans    237 KB-cwnd
+[2024-11-03T12:56:57.848261-0700]     0.2500 MB /   0.50 sec =    4.1944 Mbps     0 retrans    237 KB-cwnd
+[2024-11-03T12:57:04.712658-0700]     0.1250 MB /   0.50 sec =    2.0971 Mbps   367 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.713101-0700]     0.0625 MB /   0.50 sec =    1.0486 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.713247-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.713362-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.713472-0700]     0.0625 MB /   0.50 sec =    1.0485 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.713577-0700]     0.1250 MB /   0.50 sec =    2.0972 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.713682-0700]     0.0625 MB /   0.50 sec =    1.0486 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.713784-0700]     0.0625 MB /   0.50 sec =    1.0485 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.713886-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.713986-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.714087-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.714189-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:04.714291-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans    154 KB-cwnd
+[2024-11-03T12:57:24.757457-0700]     0.3125 MB /   0.50 sec =    5.2430 Mbps     6 retrans      1 KB-cwnd
+[2024-11-03T12:57:24.757591-0700]     0.1250 MB /   0.50 sec =    2.0972 Mbps     0 retrans      1 KB-cwnd
+[2024-11-03T12:57:24.757625-0700]     0.0625 MB /   0.50 sec =    1.0486 Mbps     0 retrans      1 KB-cwnd
+[2024-11-03T12:57:24.757651-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+[2024-11-03T12:57:24.757675-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+[2024-11-03T12:57:24.757699-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+[2024-11-03T12:57:24.757723-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+[2024-11-03T12:57:24.757746-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+[2024-11-03T12:57:24.757770-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+End time: 1730663931407

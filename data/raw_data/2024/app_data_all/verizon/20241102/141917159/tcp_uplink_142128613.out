@@ -1,0 +1,24 @@
+Start time: 1730582488580
+[2024-11-02T14:21:34.772352-0700] nuttcp-t: v8.1.4: socket
+[2024-11-02T14:21:34.773075-0700] nuttcp-t: buflen=65536, nstream=1, port=5101 tcp -> 54.176.53.206
+[2024-11-02T14:21:34.773113-0700] nuttcp-t: time limit = 120.00 seconds
+[2024-11-02T14:21:34.773140-0700] nuttcp-t: connect to 54.176.53.206 with mss=1376, RTT=200.864 ms af=inet
+[2024-11-02T14:21:34.773165-0700] nuttcp-t: send window size = 1048576, receive window size = 4194304
+[2024-11-02T14:21:34.773188-0700] nuttcp-t: available send window = 786432, available receive window = 3145728
+[2024-11-02T14:21:34.773213-0700] nuttcp-t: initial congestion window = 13 KB (10 packets)
+[2024-11-02T14:21:34.773237-0700] nuttcp-r: v6.1.2: socket
+[2024-11-02T14:21:34.773260-0700] nuttcp-r: buflen=65536, nstream=1, port=5101 tcp
+[2024-11-02T14:21:34.773285-0700] nuttcp-r: interval reporting every 0.50 seconds
+[2024-11-02T14:21:34.773310-0700] nuttcp-r: accept from 174.234.90.209
+[2024-11-02T14:21:34.773333-0700] nuttcp-r: send window size = 450000000, receive window size = 450000000
+[2024-11-02T14:21:34.773356-0700] nuttcp-r: available send window = 225000000, available receive window = 225000000
+[2024-11-02T14:21:34.773379-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     9 retrans     20 KB-cwnd
+[2024-11-02T14:21:34.773401-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans     20 KB-cwnd
+[2024-11-02T14:21:34.773424-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans     20 KB-cwnd
+[2024-11-02T14:21:34.773447-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans     20 KB-cwnd
+[2024-11-02T14:21:34.773488-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans     20 KB-cwnd
+[2024-11-02T14:21:34.773512-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans     20 KB-cwnd
+[2024-11-02T14:21:34.773534-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans     20 KB-cwnd
+[2024-11-02T14:21:34.773556-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans     20 KB-cwnd
+[2024-11-02T14:21:34.773578-0700]     0.0000 MB /   0.50 sec =    0.0000 Mbps     0 retrans     20 KB-cwnd
+End time: 1730582609675
