@@ -19,7 +19,7 @@ In this repository, we release the dataset and scripts used in the CoNEXT '26 pa
 [[Dimitrios Koutsonikolas](https://ece.northeastern.edu/fac-ece/dkoutsonikolas/)]
 
 
-## Repository Structure & Usage
+## Repository Structure
 
 | Directory | Contents |
 | --- | --- |
@@ -37,18 +37,15 @@ Use the following command to download large dataset files stored with Git LFS:
 git lfs pull
 ```
 
-## Plotting
+## Usage
 
+- **`plotting`** 
 Install the Python dependencies with `python -m pip install -r requirements.txt`, then run `python scripts/plotting/plot_all.py` from the repository root to regenerate every figure PDF in `plots/`.  Use `python scripts/plotting/plot_all.py --list` to see the execution order. Or run single script `python scripts/plotting/fig_[*].py` to generate corresponding figure  in paper.
 
-
-## 2022 raw data parsing
-
+- **`2022 raw data parsing`** 
 Run `python scripts/data_cleaning/clean_2022.py` to split measurement runs by operator. Then run `python scripts/data_cleaning/parse_2022_lte_neighbors.py` to parse LTE neighboring cell logs. Results are saved in `data/intermediate_data/2022` for plotting.
 
-
-## 2024 raw data parsing
-
+- **`2024 raw data parsing`** 
 Run `python scripts/data_cleaning/clean_2024.py`  to parse the XCAL data  into operator pickles, then `python scripts/data_cleaning/build_complete_ue_level_log.py` builds the combined UE-level per cell CSV. Run `python scripts/data_cleaning/parse_2024_lte_neighbors.py` to parse LTE neighboring cell logs. Results are saved in `data/intermediate_data/2024` for plotting.
 
 ---
