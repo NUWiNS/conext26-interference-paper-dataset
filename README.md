@@ -42,11 +42,11 @@ git lfs pull
 - **`plotting`** 
 Install the Python dependencies with `python -m pip install -r requirements.txt`, then run `python scripts/plotting/plot_all.py` from the repository root to regenerate every figure PDF in `plots/`.  Use `python scripts/plotting/plot_all.py --list` to see the execution order. Or run single script `python scripts/plotting/fig_[*].py` to generate corresponding figure  in paper.
 
-- **`2022 raw data parsing`** 
-Run `python scripts/data_cleaning/clean_2022.py` to split measurement runs by operator. Then run `python scripts/data_cleaning/parse_2022_lte_neighbors.py` to parse LTE neighboring cell logs. Results are saved in `data/intermediate_data/2022` for plotting.
+- **`2024 data cleaning`**
+Run `python scripts/data_cleaning/run_all_2024.py` to parse raw XCAL data, build the combined UE-level CSV, parse LTE neighboring-cell logs, and rebuild application reports from the raw downlink logs. Run with `--list` to see its steps without processing data. Results are saved in `data/intermediate_data/`.
 
-- **`2024 raw data parsing`** 
-Run `python scripts/data_cleaning/clean_2024.py`  to parse the XCAL data  into operator pickles, then `python scripts/data_cleaning/build_complete_ue_level_log.py` builds the combined UE-level per cell CSV. Run `python scripts/data_cleaning/parse_2024_lte_neighbors.py` to parse LTE neighboring cell logs. Results are saved in `data/intermediate_data/2024` for plotting.
+- **`2022 data cleaning`**
+Run `python scripts/data_cleaning/run_all_2022.py` to split raw XCAL runs by operator, build per-cell reports, and parse LTE neighboring-cell logs. Results are saved in `data/intermediate_data/`.
 
 ---
 
