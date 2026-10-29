@@ -9,7 +9,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 SCRIPT_DIR = Path(__file__).resolve().parent
-STEPS = ("clean_2022.py", "parse_2022_lte_neighbors.py")
+STEPS = ("clean_2022.py", "parse_2022_lte_neighbors.py", "build_coverage_2022.py")
 BAND_SUMMARY = ROOT / "data/intermediate_data/2024/all_cells_band_summary.csv"
 
 

@@ -14,6 +14,7 @@ STEPS = (
     ("data_cleaning/clean_2024.py", ()),
     ("data_cleaning/build_complete_ue_level_log.py", ()),
     ("data_cleaning/parse_2024_lte_neighbors.py", ()),
+    ("data_cleaning/build_coverage_2024.py", ()),
     ("plotting/fig_11_12_13_16.py", ("--rebuild", "--correlations-only")),
 )
 CELL_INPUT_DIR = ROOT / "data/intermediate_data/2024/cell_report_inputs"
